@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1300F1A2-661D-427A-984A-B2DA47E73D87</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1300F1A2-661D-427A-984A-B2DA47E73D87.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reactws project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>reactws</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project reactws with scheme reactws and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>576322652.67949605</real>
+			<key>timeStoppedRecording</key>
+			<real>576322663.02953601</real>
+			<key>title</key>
+			<string>Building project reactws with scheme reactws and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>1300F1A2-661D-427A-984A-B2DA47E73D87</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
