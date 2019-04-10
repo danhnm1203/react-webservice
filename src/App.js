@@ -4,7 +4,7 @@ import { createStackNavigator, createAppContainer } from "react-navigation";
 import Home from "./screens/Home";
 import User from "./screens/User";
 import Detail from "./screens/Detail";
-
+import InputCourses from "./InputCourses";
 
 
 

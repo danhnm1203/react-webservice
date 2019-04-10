@@ -8,13 +8,13 @@ import {
 
 var URL = 'http://localhost:8888/react-web-service/NhapMonHoc.php';
 
-export default class Home extends Component{
+export default class InputCourses extends Component{
     nhapMonHoc(monhoc, hocphi){
         fetch(URL, {method: "POST", body: JSON.stringify({MonHoc: monhoc, HocPhi: hocphi})})
         .then((response) => response.text())
         .then((responseData) => {
             alert("Thanh cong");
-            this.props.navigation.navigate('Detail');
+            
         })
         .done()
     }
@@ -30,7 +30,6 @@ export default class Home extends Component{
     render(){
         return(
             <View style={styles.container}>
-                <Text style={{textAlign: 'center', fontWeight: 'bold',backgroundColor: '#329BCB', padding: 20, marginBottom: 5}}>Home</Text>
                 <TextInput style={styles.textInput}
                     onChangeText={(text) => this.setState({monhoc: text})}
                     value = {this.state.monhoc}
@@ -45,9 +44,6 @@ export default class Home extends Component{
                 <Button title="Submit" 
                     onPress={() => this.nhapMonHoc(this.state.monhoc, this.state.hocphi)}
                 />
-                <Button title="View list"
-                    onPress={() => this.props.navigation.navigate('Detail')}
-                />
             </View>
         );
     }
@@ -55,6 +51,7 @@ export default class Home extends Component{
 var styles = StyleSheet.create({
     container:{
         flex: 1,
+        justifyContent: 'center'
     },
     textInput: {
         height: 45,

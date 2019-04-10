@@ -38,6 +38,38 @@
 			<key>uniqueIdentifier</key>
 			<string>1300F1A2-661D-427A-984A-B2DA47E73D87</string>
 		</dict>
+		<key>77F54469-6DBC-49C1-BA89-F7F3B1C00F7A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>77F54469-6DBC-49C1-BA89-F7F3B1C00F7A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reactws project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>reactws</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project reactws with scheme reactws and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>576604986.07850099</real>
+			<key>timeStoppedRecording</key>
+			<real>576604993.56306195</real>
+			<key>title</key>
+			<string>Building project reactws with scheme reactws and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>77F54469-6DBC-49C1-BA89-F7F3B1C00F7A</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
